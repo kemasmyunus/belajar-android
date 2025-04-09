@@ -45,3 +45,33 @@ Keuntungan Compose:
 - Mudah mengatur state dan responsif terhadap perubahan data.
 
 ---
+
+### 3. Interaksi Pengguna
+
+**Event Handling**  
+Cara umum menangani aksi pengguna seperti klik tombol:
+```kotlin
+button.setOnClickListener {
+    Toast.makeText(this, "Tombol ditekan", Toast.LENGTH_SHORT).show()
+}
+```
+
+**Navigasi Antar Activity**  
+Gunakan `Intent` untuk berpindah antar layar (activity):
+```kotlin
+val intent = Intent(this, SecondActivity::class.java)
+startActivity(intent)
+```
+
+---
+
+### 4. Komponen Android dan Arsitektur
+
+- **Activity**: tampilan layar utama.
+- **Fragment**: bagian dari UI dalam sebuah activity.
+- **ViewModel**: menyimpan dan mengelola data UI agar tidak hilang saat rotasi layar.
+- **Lifecycle-aware components**: mengelola logika aplikasi berdasarkan siklus hidup activity/fragment.
+
+Pola arsitektur yang disarankan adalah MVVM (Model-View-ViewModel).
+
+---
