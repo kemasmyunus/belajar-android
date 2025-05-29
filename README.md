@@ -83,12 +83,3 @@ Pola arsitektur yang disarankan adalah MVVM (Model-View-ViewModel).
 - **DataStore**: alternatif modern untuk SharedPreferences.
 
 ---
-
-### 6. Networking
-
-Untuk mengambil data dari internet:
-- Gunakan **Retrofit** sebagai HTTP client.
-- Parsing data **JSON** ke objek Kotlin dengan library seperti Gson atau Moshi.
-- Kombinasikan dengan Coroutines agar proses asynchronous jadi mudah.
-
----
