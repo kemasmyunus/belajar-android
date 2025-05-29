@@ -92,13 +92,3 @@ Untuk mengambil data dari internet:
 - Kombinasikan dengan Coroutines agar proses asynchronous jadi mudah.
 
 ---
-
-### 7. Jetpack Libraries
-
-- **LiveData**: data yang bisa di-observe dari UI.
-- **Flow**: alternatif reaktif untuk LiveData.
-- **Navigation Component**: memudahkan berpindah antar screen.
-- **WorkManager**: menjalankan tugas latar belakang yang penting.
-- **Hilt**: dependency injection untuk mengelola objek secara otomatis.
-
----
