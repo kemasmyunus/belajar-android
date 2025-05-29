@@ -102,13 +102,3 @@ Untuk mengambil data dari internet:
 - **Hilt**: dependency injection untuk mengelola objek secara otomatis.
 
 ---
-
-### 8. Project Mini (Latihan)
-
-Beberapa ide project pemula:
-- To-Do List (CRUD)
-- Aplikasi Catatan
-- Aplikasi Cuaca (mengambil data dari API cuaca)
-- Aplikasi Konversi Suhu atau Mata Uang
-
----
