@@ -75,11 +75,3 @@ startActivity(intent)
 Pola arsitektur yang disarankan adalah MVVM (Model-View-ViewModel).
 
 ---
-
-### 5. Penyimpanan Data
-
-- **SharedPreferences**: menyimpan data sederhana seperti login.
-- **Room Database**: menyimpan data dalam bentuk tabel (SQLite) dengan cara yang lebih aman dan efisien.
-- **DataStore**: alternatif modern untuk SharedPreferences.
-
----
